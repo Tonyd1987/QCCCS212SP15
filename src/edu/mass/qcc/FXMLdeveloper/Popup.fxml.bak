@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?scenebuilder-background-color 0xdfdfdfff?>
+
+<AnchorPane id="AnchorPane" prefHeight="442.0" prefWidth="523.0" xmlns:fx="http://javafx.com/fxml" fx:controller="snip.PopupController">
+  <children>
+    <Button id="button" fx:id="buttonGen" layoutX="429.0" layoutY="404.0" onAction="#handleButtonAction" text="Generate">
+      <font>
+        <Font size="14.0" fx:id="x1" />
+      </font>
+    </Button>
+    <Label fx:id="label" font="$x1" layoutX="18.0" layoutY="16.0" minHeight="16.0" minWidth="69.0" text="Display Name:" />
+    <Label font="$x1" layoutX="56.0" layoutY="41.0" text="Tooltip:" />
+    <Label layoutX="13.0" layoutY="170.0" text="Code" />
+    <TextArea id="CodeTextArea" fx:id="codeTextArea" layoutX="14.0" layoutY="186.0" prefHeight="211.0" prefWidth="495.0" promptText="Enter code" wrapText="true" />
+    <Button fx:id="button16" layoutX="110.0" layoutY="74.0" mnemonicParsing="false" onAction="#handleIcon16Action" text="16x16" />
+    <Label layoutX="67.0" layoutY="76.0" text="Icons:" />
+    <Button fx:id="button32" layoutX="218.0" layoutY="74.0" mnemonicParsing="false" onAction="#handleIcon32Action" text="32x32" />
+    <ImageView fx:id="puzzle16" fitHeight="19.0" fitWidth="19.0" layoutX="181.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Puzzle16.png" preserveRatio="false" smooth="false" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="puzzle32" fitHeight="33.0" fitWidth="33.0" layoutX="290.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Puzzle32.png" preserveRatio="false" smooth="false" />
+      </image>
+    </ImageView>
+    <TextField fx:id="displayNameText" layoutX="110.0" layoutY="7.0" prefWidth="399.0" promptText="Enter a display name" />
+    <TextField fx:id="toolTipText" layoutX="110.0" layoutY="38.0" prefWidth="399.0" promptText="Enter a tool-tip" />
+    <Label layoutX="13.0" layoutY="112.0" text="Package Name:" />
+    <Label layoutX="32.0" layoutY="135.0" text="Class Name:" />
+    <TextField fx:id="classNameText" layoutX="110.0" layoutY="132.0" prefWidth="399.0" promptText="Class Name should start with an Uppercase and not contain spaces." />
+    <ComboBox fx:id="packageNameCombo" layoutX="110.0" layoutY="111.0" prefHeight="21.0" prefWidth="399.0" promptText="Select a palette package.">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="org.netbeans.modules.javasourcefilepalette" />
+          <String fx:value="org.netbeans.modules.csourcefilepalette" />
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <Label fx:id="statusText" layoutX="12.0" layoutY="416.0" text="Status: Ready" />
+    <Label fx:id="icon16Label" layoutX="181.0" layoutY="96.0" prefWidth="109.0" />
+    <Label fx:id="icon32Label" layoutX="289.0" layoutY="96.0" prefWidth="220.0" />
+  </children>
+  <stylesheets>
+    <URL value="@popup.css" />
+  </stylesheets>
+</AnchorPane>
