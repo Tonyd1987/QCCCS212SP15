@@ -60,7 +60,7 @@ public class whileit implements ActiveEditorDrop {
             String body = this.createBody();
 
             try {
-                JavaSourceFilePaletteUtilities.insertm(body, targetComponent, true);
+                javasourcefilepaletteUtilities.insertm(body, targetComponent, true);
             } catch (BadLocationException ble) {
                 accept = false;
             }

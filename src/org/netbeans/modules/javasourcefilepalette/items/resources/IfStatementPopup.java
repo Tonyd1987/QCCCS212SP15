@@ -6,7 +6,6 @@ package org.netbeans.modules.javasourcefilepalette.items.resources;
 
 import edu.mass.qcc.qcccodewizard.CheckVariableName;
 import edu.mass.qcc.qcccodewizard.CodeDrop;
-import edu.mass.qcc.qcccodewizard.GroupButtonUtils;
 import java.awt.Dialog;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -42,6 +41,7 @@ public class IfStatementPopup extends javax.swing.JPanel {
         this.ifitem = item;
         this.target = target;
         initComponents();
+        
 
     }
 
@@ -263,6 +263,7 @@ public class IfStatementPopup extends javax.swing.JPanel {
             String varOperator = ifVarOp.getSelectedItem().toString();
             String varValue = ifVarValue.getSelectedItem().toString();
             String varBody = ifBody.getText();
+            
 
             CheckVariableName cvn = new CheckVariableName();
             if (cvn.isGood(varName)) {

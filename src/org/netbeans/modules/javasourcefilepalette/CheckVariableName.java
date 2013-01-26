@@ -18,7 +18,9 @@ public class CheckVariableName {
     public Boolean isGood(String name) {
         if (name.matches("^[a-zA-Z][a-zA-Z0-9]*?$")) {
             return true;
+            
         }
+        
         return false;
     }
 }

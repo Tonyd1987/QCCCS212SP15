@@ -60,7 +60,7 @@ public class Item implements ActiveEditorDrop {
             String body = createBody();
 
             try {
-                JavaSourceFilePaletteUtilities.insert(body, targetComponent);
+                javasourcefilepaletteUtilities.insert(body, targetComponent);
             } catch (BadLocationException ble) {
                 accept = false;
             }

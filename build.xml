@@ -7,8 +7,8 @@
     <import file="nbproject/build-impl.xml"/>
     
     <target name="zipme" description="zip up the application to the sample project">
-        <property name="examples" location="/home/geertjan/NetBeansProjects/JavaSourceFilePaletteSample4/build"/>
-        <zip basedir="../JavaSourceFilePaletteSample4" destfile="${examples}/JavaSourceFilePaletteSampleProject.zip">
+        <property name="examples" location="/home/geertjan/NetBeansProjects/javasourcefilepaletteSample4/build"/>
+        <zip basedir="../javasourcefilepaletteSample4" destfile="${examples}/javasourcefilepaletteSampleProject.zip">
             <exclude name="**/build/"/>
             <exclude name="**/dist/"/>
             <exclude name="**/nbproject/private/"/>

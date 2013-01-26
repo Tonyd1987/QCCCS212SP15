@@ -30,7 +30,7 @@ public class PrintConsole implements ActiveEditorDrop {
 
         StringBuilder buffer = new StringBuilder();
 
-        buffer.append("System.out.println (\"").append(comment).append("\")\n");
+        buffer.append("System.out.println (\"").append(comment).append("\");\n");
 
         return buffer.toString();
     }
@@ -48,7 +48,7 @@ public class PrintConsole implements ActiveEditorDrop {
             String body = this.createBody();
 
             try {
-                JavaSourceFilePaletteUtilities.insert(body, targetComponent);
+                javasourcefilepaletteUtilities.insert(body, targetComponent);
             } catch (BadLocationException ble) {
                 accept = false;
             }

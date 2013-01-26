@@ -47,7 +47,7 @@ public class NewClass implements ActiveEditorDrop {
             String body = this.createBody();
 
             try {
-                JavaSourceFilePaletteUtilities.insert(body, targetComponent);
+                javasourcefilepaletteUtilities.insert(body, targetComponent);
             } catch (BadLocationException ble) {
                 accept = false;
             }
