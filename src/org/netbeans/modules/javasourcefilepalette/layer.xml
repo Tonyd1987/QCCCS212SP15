@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
 <filesystem>
 
     <folder name="Editors">
@@ -7,7 +7,7 @@
             <folder name="x-java">
                 <file name="PaletteFactory.instance">
                     <attr name="instanceOf" stringvalue="org.netbeans.spi.palette.PaletteController"/>
-                    <attr name="instanceCreate" methodvalue="org.netbeans.modules.javasourcefilepalette.JavaSourceFileLayerPaletteFactory.createPalette"/>
+                    <attr methodvalue="org.netbeans.modules.javasourcefilepalette.JavaSourceFileLayerPaletteFactory.createPalette" name="instanceCreate"/>
                 </file>
             </folder>
         </folder>
@@ -37,8 +37,9 @@
             <file name="DoubleVar.xml" url="DoubleVar.xml"/>
             <file name="FloatVar.xml" url="FloatVar.xml"/>
             <file name="Expression.xml" url="Expression.xml"/>
+            <file name="CharParameter.xml" url="CharParameter.xml"/>
             
-        </folder>
+</folder>
         
         <folder name="Decisions">
             <file name="IfStatementItem.xml" url="IfStatementItem.xml"/>

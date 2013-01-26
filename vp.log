@@ -3711,3 +3711,618 @@
 [2013/01/25 16:53:20] [message] at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
 [2013/01/25 16:53:20] [message] at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
 [2013/01/25 16:53:20] [message] at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+[2013/01/26 16:39:34] [warning] Language dir not found: C:\Users\ian\Documents\NetBeansProjects\JavaSourceFilePalette\..\UserLanguage
+[2013/01/26 16:39:58] [message] Opening Document Stream
+[2013/01/26 16:39:58] [message] Unable to parse the document.
+[2013/01/26 16:39:58] [message] java.lang.NullPointerException
+[2013/01/26 16:39:58] [message] at japa.parser.ast.visitor.VoidVisitorAdapter.visit(VoidVisitorAdapter.java:265)
+[2013/01/26 16:39:58] [message] at org.netbeans.modules.javasourcefilepalette.items.resources.VariableNameComboModel.<init>(VariableNameComboModel.java:54)
+[2013/01/26 16:39:58] [message] at org.netbeans.modules.javasourcefilepalette.items.resources.CharParameterPopup.initComponents(CharParameterPopup.java:136)
+[2013/01/26 16:39:58] [message] at org.netbeans.modules.javasourcefilepalette.items.resources.CharParameterPopup.<init>(CharParameterPopup.java:47)
+[2013/01/26 16:39:58] [message] at org.netbeans.modules.javasourcefilepalette.items.CharParameter.handleTransfer(CharParameter.java:42)
+[2013/01/26 16:39:58] [message] at org.openide.text.QuietEditorPane$DelegatingTransferHandler.importData(QuietEditorPane.java:360)
+[2013/01/26 16:39:58] [message] at javax.swing.TransferHandler.importData(TransferHandler.java:826)
+[2013/01/26 16:39:58] [message] at javax.swing.TransferHandler$DropHandler.drop(TransferHandler.java:1536)
+[2013/01/26 16:39:58] [message] at java.awt.dnd.DropTarget.drop(DropTarget.java:450)
+[2013/01/26 16:39:58] [message] at javax.swing.TransferHandler$SwingDropTarget.drop(TransferHandler.java:1274)
+[2013/01/26 16:39:58] [message] at org.openide.text.QuietEditorPane$DelegatingDropTarget.drop(QuietEditorPane.java:509)
+[2013/01/26 16:39:58] [message] at sun.awt.dnd.SunDropTargetContextPeer.processDropMessage(SunDropTargetContextPeer.java:537)
+[2013/01/26 16:39:58] [message] at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchDropEvent(SunDropTargetContextPeer.java:851)
+[2013/01/26 16:39:58] [message] at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchEvent(SunDropTargetContextPeer.java:775)
+[2013/01/26 16:39:58] [message] at sun.awt.dnd.SunDropTargetEvent.dispatch(SunDropTargetEvent.java:48)
+[2013/01/26 16:39:58] [message] at java.awt.Component.dispatchEventImpl(Component.java:4716)
+[2013/01/26 16:39:58] [message] at java.awt.Container.dispatchEventImpl(Container.java:2287)
+[2013/01/26 16:39:58] [message] at java.awt.Component.dispatchEvent(Component.java:4687)
+[2013/01/26 16:39:58] [message] at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+[2013/01/26 16:39:58] [message] at java.awt.LightweightDispatcher.processDropTargetEvent(Container.java:4566)
+[2013/01/26 16:39:58] [message] at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4417)
+[2013/01/26 16:39:58] [message] at java.awt.Container.dispatchEventImpl(Container.java:2273)
+[2013/01/26 16:39:58] [message] at java.awt.Window.dispatchEventImpl(Window.java:2719)
+[2013/01/26 16:39:58] [message] at java.awt.Component.dispatchEvent(Component.java:4687)
+[2013/01/26 16:39:58] [message] at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+[2013/01/26 16:39:58] [message] at java.awt.EventQueue.access$200(EventQueue.java:103)
+[2013/01/26 16:39:58] [message] at java.awt.EventQueue$3.run(EventQueue.java:682)
+[2013/01/26 16:39:58] [message] at java.awt.EventQueue$3.run(EventQueue.java:680)
+[2013/01/26 16:39:58] [message] at java.security.AccessController.doPrivileged(Native Method)
+[2013/01/26 16:39:58] [message] at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+[2013/01/26 16:39:58] [message] at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+[2013/01/26 16:39:58] [message] at java.awt.EventQueue$4.run(EventQueue.java:696)
+[2013/01/26 16:39:58] [message] at java.awt.EventQueue$4.run(EventQueue.java:694)
+[2013/01/26 16:39:58] [message] at java.security.AccessController.doPrivileged(Native Method)
+[2013/01/26 16:39:58] [message] at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+[2013/01/26 16:39:58] [message] at java.awt.EventQueue.dispatchEvent(EventQueue.java:693)
+[2013/01/26 16:39:58] [message] at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:158)
+[2013/01/26 16:39:58] [message] at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+[2013/01/26 16:39:58] [message] at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+[2013/01/26 16:39:58] [message] at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+[2013/01/26 16:39:58] [message] at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+[2013/01/26 16:39:58] [message] at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+[2013/01/26 16:39:58] [message] at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+[2013/01/26 16:39:58] [message] Opening Document Stream
+[2013/01/26 16:39:58] [message] Unable to parse the document.
+[2013/01/26 16:39:58] [message] java.lang.NullPointerException
+[2013/01/26 16:39:58] [message] at japa.parser.ast.visitor.VoidVisitorAdapter.visit(VoidVisitorAdapter.java:265)
+[2013/01/26 16:39:58] [message] at org.netbeans.modules.javasourcefilepalette.items.resources.VariableNameComboModel.<init>(VariableNameComboModel.java:54)
+[2013/01/26 16:39:58] [message] at org.netbeans.modules.javasourcefilepalette.items.resources.CharParameterPopup.initComponents(CharParameterPopup.java:136)
+[2013/01/26 16:39:58] [message] at org.netbeans.modules.javasourcefilepalette.items.resources.CharParameterPopup.<init>(CharParameterPopup.java:47)
+[2013/01/26 16:39:58] [message] at org.netbeans.modules.javasourcefilepalette.items.CharParameter.handleTransfer(CharParameter.java:42)
+[2013/01/26 16:39:58] [message] at org.openide.text.QuietEditorPane$DelegatingTransferHandler.importData(QuietEditorPane.java:360)
+[2013/01/26 16:39:58] [message] at org.netbeans.modules.java.editor.imports.ClipboardHandler$ImportingTransferHandler.delegatedImportData(ClipboardHandler.java:547)
+[2013/01/26 16:39:58] [message] at org.netbeans.modules.java.editor.imports.ClipboardHandler$ImportingTransferHandler.importData(ClipboardHandler.java:517)
+[2013/01/26 16:39:58] [message] at org.openide.text.QuietEditorPane$DelegatingTransferHandler.importData(QuietEditorPane.java:371)
+[2013/01/26 16:39:58] [message] at javax.swing.TransferHandler.importData(TransferHandler.java:826)
+[2013/01/26 16:39:58] [message] at javax.swing.TransferHandler$DropHandler.drop(TransferHandler.java:1536)
+[2013/01/26 16:39:58] [message] at java.awt.dnd.DropTarget.drop(DropTarget.java:450)
+[2013/01/26 16:39:58] [message] at javax.swing.TransferHandler$SwingDropTarget.drop(TransferHandler.java:1274)
+[2013/01/26 16:39:58] [message] at org.openide.text.QuietEditorPane$DelegatingDropTarget.drop(QuietEditorPane.java:509)
+[2013/01/26 16:39:58] [message] at sun.awt.dnd.SunDropTargetContextPeer.processDropMessage(SunDropTargetContextPeer.java:537)
+[2013/01/26 16:39:58] [message] at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchDropEvent(SunDropTargetContextPeer.java:851)
+[2013/01/26 16:39:58] [message] at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchEvent(SunDropTargetContextPeer.java:775)
+[2013/01/26 16:39:58] [message] at sun.awt.dnd.SunDropTargetEvent.dispatch(SunDropTargetEvent.java:48)
+[2013/01/26 16:39:58] [message] at java.awt.Component.dispatchEventImpl(Component.java:4716)
+[2013/01/26 16:39:58] [message] at java.awt.Container.dispatchEventImpl(Container.java:2287)
+[2013/01/26 16:39:58] [message] at java.awt.Component.dispatchEvent(Component.java:4687)
+[2013/01/26 16:39:58] [message] at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+[2013/01/26 16:39:58] [message] at java.awt.LightweightDispatcher.processDropTargetEvent(Container.java:4566)
+[2013/01/26 16:39:58] [message] at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4417)
+[2013/01/26 16:39:58] [message] at java.awt.Container.dispatchEventImpl(Container.java:2273)
+[2013/01/26 16:39:58] [message] at java.awt.Window.dispatchEventImpl(Window.java:2719)
+[2013/01/26 16:39:58] [message] at java.awt.Component.dispatchEvent(Component.java:4687)
+[2013/01/26 16:39:58] [message] at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+[2013/01/26 16:39:58] [message] at java.awt.EventQueue.access$200(EventQueue.java:103)
+[2013/01/26 16:39:58] [message] at java.awt.EventQueue$3.run(EventQueue.java:682)
+[2013/01/26 16:39:58] [message] at java.awt.EventQueue$3.run(EventQueue.java:680)
+[2013/01/26 16:39:58] [message] at java.security.AccessController.doPrivileged(Native Method)
+[2013/01/26 16:39:58] [message] at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+[2013/01/26 16:39:58] [message] at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+[2013/01/26 16:39:58] [message] at java.awt.EventQueue$4.run(EventQueue.java:696)
+[2013/01/26 16:39:58] [message] at java.awt.EventQueue$4.run(EventQueue.java:694)
+[2013/01/26 16:39:58] [message] at java.security.AccessController.doPrivileged(Native Method)
+[2013/01/26 16:39:58] [message] at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+[2013/01/26 16:39:58] [message] at java.awt.EventQueue.dispatchEvent(EventQueue.java:693)
+[2013/01/26 16:39:58] [message] at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:158)
+[2013/01/26 16:39:58] [message] at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+[2013/01/26 16:39:58] [message] at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+[2013/01/26 16:39:58] [message] at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+[2013/01/26 16:39:58] [message] at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+[2013/01/26 16:39:58] [message] at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+[2013/01/26 16:39:58] [message] at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+[2013/01/26 16:40:24] [message] Opening Document Stream
+[2013/01/26 16:40:24] [message] Begin Line: 5
+[2013/01/26 16:40:24] [message] Variable: byte : myB
+[2013/01/26 16:40:24] [message] Variable: char : myChar
+[2013/01/26 16:40:24] [message] Variable: double : myD
+[2013/01/26 16:40:24] [message] Variable: int : myI
+[2013/01/26 16:40:24] [message] Variable: String : myStr
+[2013/01/26 16:40:24] [message] Variable: boolean : bool
+[2013/01/26 16:40:24] [message] Variable: byte : b
+[2013/01/26 16:40:24] [message] Variable: char : thisChar
+[2013/01/26 16:40:24] [message] Variable: double : myDouble
+[2013/01/26 16:40:24] [message] Variable: float : myFloat
+[2013/01/26 16:40:24] [message] Variable: int : myInteger
+[2013/01/26 16:40:24] [message] Can't get display name: java.util.MissingResourceException: Can't find resource for bundle org.openide.util.NbBundle$PBundle, key NAME_html-CharParameterPopup
+[2013/01/26 16:40:52] [message] Opening Document Stream
+[2013/01/26 16:40:52] [message] Begin Line: 5
+[2013/01/26 16:40:52] [message] Variable: byte : myB
+[2013/01/26 16:40:52] [message] Variable: char : myChar
+[2013/01/26 16:40:52] [message] Variable: double : myD
+[2013/01/26 16:40:52] [message] Variable: int : myI
+[2013/01/26 16:40:52] [message] Variable: String : myStr
+[2013/01/26 16:40:52] [message] Variable: boolean : bool
+[2013/01/26 16:40:52] [message] Variable: byte : b
+[2013/01/26 16:40:52] [message] Variable: char : thisChar
+[2013/01/26 16:40:52] [message] Variable: double : myDouble
+[2013/01/26 16:40:52] [message] Variable: float : myFloat
+[2013/01/26 16:40:52] [message] Variable: int : myInteger
+[2013/01/26 16:40:52] [message] Can't get display name: java.util.MissingResourceException: Can't find resource for bundle org.openide.util.NbBundle$PBundle, key NAME_html-CharParameterPopup
+[2013/01/26 16:40:59] [message] char
+[2013/01/26 16:40:59] [message] myChar
+[2013/01/26 16:40:59] [message] Inserting Code
+[2013/01/26 16:41:17] [message] Opening Document Stream
+[2013/01/26 16:41:17] [message] Begin Line: 5
+[2013/01/26 16:41:17] [message] Variable: byte : myB
+[2013/01/26 16:41:17] [message] Variable: char : myChar
+[2013/01/26 16:41:17] [message] Variable: double : myD
+[2013/01/26 16:41:17] [message] Variable: int : myI
+[2013/01/26 16:41:17] [message] Variable: String : myStr
+[2013/01/26 16:41:17] [message] Variable: boolean : bool
+[2013/01/26 16:41:17] [message] Variable: byte : b
+[2013/01/26 16:41:17] [message] Variable: char : thisChar
+[2013/01/26 16:41:17] [message] Variable: double : myDouble
+[2013/01/26 16:41:17] [message] Variable: float : myFloat
+[2013/01/26 16:41:17] [message] Variable: int : myInteger
+[2013/01/26 16:41:17] [message] Variable: char : myChar
+[2013/01/26 16:41:17] [message] Can't get display name: java.util.MissingResourceException: Can't find resource for bundle org.openide.util.NbBundle$PBundle, key NAME_html-DoubleParameterPopup
+[2013/01/26 16:41:29] [message] Opening Document Stream
+[2013/01/26 16:41:29] [message] Begin Line: 5
+[2013/01/26 16:41:29] [message] Variable: byte : myB
+[2013/01/26 16:41:29] [message] Variable: char : myChar
+[2013/01/26 16:41:29] [message] Variable: double : myD
+[2013/01/26 16:41:29] [message] Variable: int : myI
+[2013/01/26 16:41:29] [message] Variable: String : myStr
+[2013/01/26 16:41:29] [message] Variable: boolean : bool
+[2013/01/26 16:41:29] [message] Variable: byte : b
+[2013/01/26 16:41:29] [message] Variable: char : thisChar
+[2013/01/26 16:41:29] [message] Variable: double : myDouble
+[2013/01/26 16:41:29] [message] Variable: float : myFloat
+[2013/01/26 16:41:29] [message] Variable: int : myInteger
+[2013/01/26 16:41:29] [message] Can't get display name: java.util.MissingResourceException: Can't find resource for bundle org.openide.util.NbBundle$PBundle, key NAME_html-FloatParameterPopup
+[2013/01/26 16:41:42] [message] Opening Document Stream
+[2013/01/26 16:41:42] [message] Begin Line: 5
+[2013/01/26 16:41:42] [message] Variable: byte : myB
+[2013/01/26 16:41:42] [message] Variable: char : myChar
+[2013/01/26 16:41:42] [message] Variable: double : myD
+[2013/01/26 16:41:42] [message] Variable: int : myI
+[2013/01/26 16:41:42] [message] Variable: String : myStr
+[2013/01/26 16:41:42] [message] Variable: boolean : bool
+[2013/01/26 16:41:42] [message] Variable: byte : b
+[2013/01/26 16:41:42] [message] Variable: char : thisChar
+[2013/01/26 16:41:42] [message] Variable: double : myDouble
+[2013/01/26 16:41:42] [message] Variable: float : myFloat
+[2013/01/26 16:41:42] [message] Variable: int : myInteger
+[2013/01/26 16:41:42] [message] Can't get display name: java.util.MissingResourceException: Can't find resource for bundle org.openide.util.NbBundle$PBundle, key NAME_html-StringParameterPopup
+[2013/01/26 16:41:55] [message] Opening Document Stream
+[2013/01/26 16:41:55] [message] Begin Line: 5
+[2013/01/26 16:41:55] [message] Variable: byte : myB
+[2013/01/26 16:41:55] [message] Variable: char : myChar
+[2013/01/26 16:41:55] [message] Variable: double : myD
+[2013/01/26 16:41:55] [message] Variable: int : myI
+[2013/01/26 16:41:55] [message] Variable: String : myStr
+[2013/01/26 16:41:55] [message] Variable: boolean : bool
+[2013/01/26 16:41:55] [message] Variable: byte : b
+[2013/01/26 16:41:55] [message] Variable: char : thisChar
+[2013/01/26 16:41:55] [message] Variable: double : myDouble
+[2013/01/26 16:41:55] [message] Variable: float : myFloat
+[2013/01/26 16:41:55] [message] Variable: int : myInteger
+[2013/01/26 16:41:55] [message] Can't get display name: java.util.MissingResourceException: Can't find resource for bundle org.openide.util.NbBundle$PBundle, key NAME_html-CharParameterPopup
+[2013/01/26 16:42:03] [message] char
+[2013/01/26 16:42:03] [message] myGreat
+[2013/01/26 16:42:03] [message] Inserting Code
+[2013/01/26 16:42:32] [message] Inserting Code
+[2013/01/26 16:42:32] [message] Valid Name
+[2013/01/26 16:42:32] [message] Inserting Code
+[2013/01/26 16:43:18] [message] Opening Document Stream
+[2013/01/26 16:43:18] [message] Unable to parse the document.
+[2013/01/26 16:43:18] [message] java.lang.NullPointerException
+[2013/01/26 16:43:18] [message] at japa.parser.ast.visitor.VoidVisitorAdapter.visit(VoidVisitorAdapter.java:265)
+[2013/01/26 16:43:18] [message] at org.netbeans.modules.javasourcefilepalette.items.resources.VariableNameComboModel.<init>(VariableNameComboModel.java:54)
+[2013/01/26 16:43:18] [message] at org.netbeans.modules.javasourcefilepalette.items.resources.CharParameterPopup.initComponents(CharParameterPopup.java:136)
+[2013/01/26 16:43:18] [message] at org.netbeans.modules.javasourcefilepalette.items.resources.CharParameterPopup.<init>(CharParameterPopup.java:47)
+[2013/01/26 16:43:18] [message] at org.netbeans.modules.javasourcefilepalette.items.CharParameter.handleTransfer(CharParameter.java:42)
+[2013/01/26 16:43:18] [message] at org.openide.text.QuietEditorPane$DelegatingTransferHandler.importData(QuietEditorPane.java:360)
+[2013/01/26 16:43:18] [message] at javax.swing.TransferHandler.importData(TransferHandler.java:826)
+[2013/01/26 16:43:18] [message] at javax.swing.TransferHandler$DropHandler.drop(TransferHandler.java:1536)
+[2013/01/26 16:43:18] [message] at java.awt.dnd.DropTarget.drop(DropTarget.java:450)
+[2013/01/26 16:43:18] [message] at javax.swing.TransferHandler$SwingDropTarget.drop(TransferHandler.java:1274)
+[2013/01/26 16:43:18] [message] at org.openide.text.QuietEditorPane$DelegatingDropTarget.drop(QuietEditorPane.java:509)
+[2013/01/26 16:43:18] [message] at sun.awt.dnd.SunDropTargetContextPeer.processDropMessage(SunDropTargetContextPeer.java:537)
+[2013/01/26 16:43:18] [message] at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchDropEvent(SunDropTargetContextPeer.java:851)
+[2013/01/26 16:43:18] [message] at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchEvent(SunDropTargetContextPeer.java:775)
+[2013/01/26 16:43:18] [message] at sun.awt.dnd.SunDropTargetEvent.dispatch(SunDropTargetEvent.java:48)
+[2013/01/26 16:43:18] [message] at java.awt.Component.dispatchEventImpl(Component.java:4716)
+[2013/01/26 16:43:18] [message] at java.awt.Container.dispatchEventImpl(Container.java:2287)
+[2013/01/26 16:43:18] [message] at java.awt.Component.dispatchEvent(Component.java:4687)
+[2013/01/26 16:43:18] [message] at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+[2013/01/26 16:43:18] [message] at java.awt.LightweightDispatcher.processDropTargetEvent(Container.java:4566)
+[2013/01/26 16:43:18] [message] at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4417)
+[2013/01/26 16:43:18] [message] at java.awt.Container.dispatchEventImpl(Container.java:2273)
+[2013/01/26 16:43:18] [message] at java.awt.Window.dispatchEventImpl(Window.java:2719)
+[2013/01/26 16:43:18] [message] at java.awt.Component.dispatchEvent(Component.java:4687)
+[2013/01/26 16:43:18] [message] at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+[2013/01/26 16:43:18] [message] at java.awt.EventQueue.access$200(EventQueue.java:103)
+[2013/01/26 16:43:18] [message] at java.awt.EventQueue$3.run(EventQueue.java:682)
+[2013/01/26 16:43:18] [message] at java.awt.EventQueue$3.run(EventQueue.java:680)
+[2013/01/26 16:43:18] [message] at java.security.AccessController.doPrivileged(Native Method)
+[2013/01/26 16:43:18] [message] at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+[2013/01/26 16:43:18] [message] at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+[2013/01/26 16:43:18] [message] at java.awt.EventQueue$4.run(EventQueue.java:696)
+[2013/01/26 16:43:18] [message] at java.awt.EventQueue$4.run(EventQueue.java:694)
+[2013/01/26 16:43:18] [message] at java.security.AccessController.doPrivileged(Native Method)
+[2013/01/26 16:43:18] [message] at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+[2013/01/26 16:43:18] [message] at java.awt.EventQueue.dispatchEvent(EventQueue.java:693)
+[2013/01/26 16:43:18] [message] at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:158)
+[2013/01/26 16:43:18] [message] at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+[2013/01/26 16:43:18] [message] at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+[2013/01/26 16:43:18] [message] at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+[2013/01/26 16:43:18] [message] at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+[2013/01/26 16:43:18] [message] at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+[2013/01/26 16:43:18] [message] at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+[2013/01/26 16:43:18] [message] Opening Document Stream
+[2013/01/26 16:43:18] [message] Unable to parse the document.
+[2013/01/26 16:43:18] [message] java.lang.NullPointerException
+[2013/01/26 16:43:18] [message] at japa.parser.ast.visitor.VoidVisitorAdapter.visit(VoidVisitorAdapter.java:265)
+[2013/01/26 16:43:18] [message] at org.netbeans.modules.javasourcefilepalette.items.resources.VariableNameComboModel.<init>(VariableNameComboModel.java:54)
+[2013/01/26 16:43:18] [message] at org.netbeans.modules.javasourcefilepalette.items.resources.CharParameterPopup.initComponents(CharParameterPopup.java:136)
+[2013/01/26 16:43:18] [message] at org.netbeans.modules.javasourcefilepalette.items.resources.CharParameterPopup.<init>(CharParameterPopup.java:47)
+[2013/01/26 16:43:18] [message] at org.netbeans.modules.javasourcefilepalette.items.CharParameter.handleTransfer(CharParameter.java:42)
+[2013/01/26 16:43:18] [message] at org.openide.text.QuietEditorPane$DelegatingTransferHandler.importData(QuietEditorPane.java:360)
+[2013/01/26 16:43:18] [message] at org.netbeans.modules.java.editor.imports.ClipboardHandler$ImportingTransferHandler.delegatedImportData(ClipboardHandler.java:547)
+[2013/01/26 16:43:18] [message] at org.netbeans.modules.java.editor.imports.ClipboardHandler$ImportingTransferHandler.importData(ClipboardHandler.java:517)
+[2013/01/26 16:43:18] [message] at org.openide.text.QuietEditorPane$DelegatingTransferHandler.importData(QuietEditorPane.java:371)
+[2013/01/26 16:43:18] [message] at javax.swing.TransferHandler.importData(TransferHandler.java:826)
+[2013/01/26 16:43:18] [message] at javax.swing.TransferHandler$DropHandler.drop(TransferHandler.java:1536)
+[2013/01/26 16:43:18] [message] at java.awt.dnd.DropTarget.drop(DropTarget.java:450)
+[2013/01/26 16:43:18] [message] at javax.swing.TransferHandler$SwingDropTarget.drop(TransferHandler.java:1274)
+[2013/01/26 16:43:18] [message] at org.openide.text.QuietEditorPane$DelegatingDropTarget.drop(QuietEditorPane.java:509)
+[2013/01/26 16:43:18] [message] at sun.awt.dnd.SunDropTargetContextPeer.processDropMessage(SunDropTargetContextPeer.java:537)
+[2013/01/26 16:43:18] [message] at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchDropEvent(SunDropTargetContextPeer.java:851)
+[2013/01/26 16:43:18] [message] at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchEvent(SunDropTargetContextPeer.java:775)
+[2013/01/26 16:43:18] [message] at sun.awt.dnd.SunDropTargetEvent.dispatch(SunDropTargetEvent.java:48)
+[2013/01/26 16:43:18] [message] at java.awt.Component.dispatchEventImpl(Component.java:4716)
+[2013/01/26 16:43:18] [message] at java.awt.Container.dispatchEventImpl(Container.java:2287)
+[2013/01/26 16:43:18] [message] at java.awt.Component.dispatchEvent(Component.java:4687)
+[2013/01/26 16:43:18] [message] at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+[2013/01/26 16:43:18] [message] at java.awt.LightweightDispatcher.processDropTargetEvent(Container.java:4566)
+[2013/01/26 16:43:18] [message] at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4417)
+[2013/01/26 16:43:18] [message] at java.awt.Container.dispatchEventImpl(Container.java:2273)
+[2013/01/26 16:43:18] [message] at java.awt.Window.dispatchEventImpl(Window.java:2719)
+[2013/01/26 16:43:18] [message] at java.awt.Component.dispatchEvent(Component.java:4687)
+[2013/01/26 16:43:18] [message] at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+[2013/01/26 16:43:18] [message] at java.awt.EventQueue.access$200(EventQueue.java:103)
+[2013/01/26 16:43:18] [message] at java.awt.EventQueue$3.run(EventQueue.java:682)
+[2013/01/26 16:43:18] [message] at java.awt.EventQueue$3.run(EventQueue.java:680)
+[2013/01/26 16:43:18] [message] at java.security.AccessController.doPrivileged(Native Method)
+[2013/01/26 16:43:18] [message] at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+[2013/01/26 16:43:18] [message] at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+[2013/01/26 16:43:18] [message] at java.awt.EventQueue$4.run(EventQueue.java:696)
+[2013/01/26 16:43:18] [message] at java.awt.EventQueue$4.run(EventQueue.java:694)
+[2013/01/26 16:43:18] [message] at java.security.AccessController.doPrivileged(Native Method)
+[2013/01/26 16:43:18] [message] at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+[2013/01/26 16:43:18] [message] at java.awt.EventQueue.dispatchEvent(EventQueue.java:693)
+[2013/01/26 16:43:18] [message] at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:158)
+[2013/01/26 16:43:18] [message] at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+[2013/01/26 16:43:18] [message] at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+[2013/01/26 16:43:18] [message] at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+[2013/01/26 16:43:18] [message] at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+[2013/01/26 16:43:18] [message] at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+[2013/01/26 16:43:18] [message] at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+[2013/01/26 16:43:22] [message] Opening Document Stream
+[2013/01/26 16:43:22] [message] Unable to parse the document.
+[2013/01/26 16:43:22] [message] java.lang.NullPointerException
+[2013/01/26 16:43:22] [message] at japa.parser.ast.visitor.VoidVisitorAdapter.visit(VoidVisitorAdapter.java:265)
+[2013/01/26 16:43:22] [message] at org.netbeans.modules.javasourcefilepalette.items.resources.VariableNameComboModel.<init>(VariableNameComboModel.java:54)
+[2013/01/26 16:43:22] [message] at org.netbeans.modules.javasourcefilepalette.items.resources.CharParameterPopup.initComponents(CharParameterPopup.java:136)
+[2013/01/26 16:43:22] [message] at org.netbeans.modules.javasourcefilepalette.items.resources.CharParameterPopup.<init>(CharParameterPopup.java:47)
+[2013/01/26 16:43:22] [message] at org.netbeans.modules.javasourcefilepalette.items.CharParameter.handleTransfer(CharParameter.java:42)
+[2013/01/26 16:43:22] [message] at org.openide.text.QuietEditorPane$DelegatingTransferHandler.importData(QuietEditorPane.java:360)
+[2013/01/26 16:43:22] [message] at javax.swing.TransferHandler.importData(TransferHandler.java:826)
+[2013/01/26 16:43:22] [message] at javax.swing.TransferHandler$DropHandler.drop(TransferHandler.java:1536)
+[2013/01/26 16:43:22] [message] at java.awt.dnd.DropTarget.drop(DropTarget.java:450)
+[2013/01/26 16:43:22] [message] at javax.swing.TransferHandler$SwingDropTarget.drop(TransferHandler.java:1274)
+[2013/01/26 16:43:22] [message] at org.openide.text.QuietEditorPane$DelegatingDropTarget.drop(QuietEditorPane.java:509)
+[2013/01/26 16:43:22] [message] at sun.awt.dnd.SunDropTargetContextPeer.processDropMessage(SunDropTargetContextPeer.java:537)
+[2013/01/26 16:43:22] [message] at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchDropEvent(SunDropTargetContextPeer.java:851)
+[2013/01/26 16:43:22] [message] at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchEvent(SunDropTargetContextPeer.java:775)
+[2013/01/26 16:43:22] [message] at sun.awt.dnd.SunDropTargetEvent.dispatch(SunDropTargetEvent.java:48)
+[2013/01/26 16:43:22] [message] at java.awt.Component.dispatchEventImpl(Component.java:4716)
+[2013/01/26 16:43:22] [message] at java.awt.Container.dispatchEventImpl(Container.java:2287)
+[2013/01/26 16:43:22] [message] at java.awt.Component.dispatchEvent(Component.java:4687)
+[2013/01/26 16:43:22] [message] at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+[2013/01/26 16:43:22] [message] at java.awt.LightweightDispatcher.processDropTargetEvent(Container.java:4566)
+[2013/01/26 16:43:22] [message] at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4417)
+[2013/01/26 16:43:22] [message] at java.awt.Container.dispatchEventImpl(Container.java:2273)
+[2013/01/26 16:43:22] [message] at java.awt.Window.dispatchEventImpl(Window.java:2719)
+[2013/01/26 16:43:22] [message] at java.awt.Component.dispatchEvent(Component.java:4687)
+[2013/01/26 16:43:22] [message] at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+[2013/01/26 16:43:22] [message] at java.awt.EventQueue.access$200(EventQueue.java:103)
+[2013/01/26 16:43:22] [message] at java.awt.EventQueue$3.run(EventQueue.java:682)
+[2013/01/26 16:43:22] [message] at java.awt.EventQueue$3.run(EventQueue.java:680)
+[2013/01/26 16:43:22] [message] at java.security.AccessController.doPrivileged(Native Method)
+[2013/01/26 16:43:22] [message] at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+[2013/01/26 16:43:22] [message] at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+[2013/01/26 16:43:22] [message] at java.awt.EventQueue$4.run(EventQueue.java:696)
+[2013/01/26 16:43:22] [message] at java.awt.EventQueue$4.run(EventQueue.java:694)
+[2013/01/26 16:43:22] [message] at java.security.AccessController.doPrivileged(Native Method)
+[2013/01/26 16:43:22] [message] at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+[2013/01/26 16:43:22] [message] at java.awt.EventQueue.dispatchEvent(EventQueue.java:693)
+[2013/01/26 16:43:22] [message] at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:158)
+[2013/01/26 16:43:22] [message] at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+[2013/01/26 16:43:22] [message] at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+[2013/01/26 16:43:22] [message] at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+[2013/01/26 16:43:22] [message] at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+[2013/01/26 16:43:22] [message] at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+[2013/01/26 16:43:22] [message] at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+[2013/01/26 16:43:22] [message] Opening Document Stream
+[2013/01/26 16:43:22] [message] Unable to parse the document.
+[2013/01/26 16:43:22] [message] java.lang.NullPointerException
+[2013/01/26 16:43:22] [message] at japa.parser.ast.visitor.VoidVisitorAdapter.visit(VoidVisitorAdapter.java:265)
+[2013/01/26 16:43:22] [message] at org.netbeans.modules.javasourcefilepalette.items.resources.VariableNameComboModel.<init>(VariableNameComboModel.java:54)
+[2013/01/26 16:43:22] [message] at org.netbeans.modules.javasourcefilepalette.items.resources.CharParameterPopup.initComponents(CharParameterPopup.java:136)
+[2013/01/26 16:43:22] [message] at org.netbeans.modules.javasourcefilepalette.items.resources.CharParameterPopup.<init>(CharParameterPopup.java:47)
+[2013/01/26 16:43:22] [message] at org.netbeans.modules.javasourcefilepalette.items.CharParameter.handleTransfer(CharParameter.java:42)
+[2013/01/26 16:43:22] [message] at org.openide.text.QuietEditorPane$DelegatingTransferHandler.importData(QuietEditorPane.java:360)
+[2013/01/26 16:43:22] [message] at org.netbeans.modules.java.editor.imports.ClipboardHandler$ImportingTransferHandler.delegatedImportData(ClipboardHandler.java:547)
+[2013/01/26 16:43:22] [message] at org.netbeans.modules.java.editor.imports.ClipboardHandler$ImportingTransferHandler.importData(ClipboardHandler.java:517)
+[2013/01/26 16:43:22] [message] at org.openide.text.QuietEditorPane$DelegatingTransferHandler.importData(QuietEditorPane.java:371)
+[2013/01/26 16:43:22] [message] at javax.swing.TransferHandler.importData(TransferHandler.java:826)
+[2013/01/26 16:43:22] [message] at javax.swing.TransferHandler$DropHandler.drop(TransferHandler.java:1536)
+[2013/01/26 16:43:22] [message] at java.awt.dnd.DropTarget.drop(DropTarget.java:450)
+[2013/01/26 16:43:22] [message] at javax.swing.TransferHandler$SwingDropTarget.drop(TransferHandler.java:1274)
+[2013/01/26 16:43:22] [message] at org.openide.text.QuietEditorPane$DelegatingDropTarget.drop(QuietEditorPane.java:509)
+[2013/01/26 16:43:22] [message] at sun.awt.dnd.SunDropTargetContextPeer.processDropMessage(SunDropTargetContextPeer.java:537)
+[2013/01/26 16:43:22] [message] at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchDropEvent(SunDropTargetContextPeer.java:851)
+[2013/01/26 16:43:22] [message] at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchEvent(SunDropTargetContextPeer.java:775)
+[2013/01/26 16:43:22] [message] at sun.awt.dnd.SunDropTargetEvent.dispatch(SunDropTargetEvent.java:48)
+[2013/01/26 16:43:22] [message] at java.awt.Component.dispatchEventImpl(Component.java:4716)
+[2013/01/26 16:43:22] [message] at java.awt.Container.dispatchEventImpl(Container.java:2287)
+[2013/01/26 16:43:22] [message] at java.awt.Component.dispatchEvent(Component.java:4687)
+[2013/01/26 16:43:22] [message] at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+[2013/01/26 16:43:22] [message] at java.awt.LightweightDispatcher.processDropTargetEvent(Container.java:4566)
+[2013/01/26 16:43:22] [message] at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4417)
+[2013/01/26 16:43:22] [message] at java.awt.Container.dispatchEventImpl(Container.java:2273)
+[2013/01/26 16:43:22] [message] at java.awt.Window.dispatchEventImpl(Window.java:2719)
+[2013/01/26 16:43:22] [message] at java.awt.Component.dispatchEvent(Component.java:4687)
+[2013/01/26 16:43:22] [message] at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+[2013/01/26 16:43:22] [message] at java.awt.EventQueue.access$200(EventQueue.java:103)
+[2013/01/26 16:43:22] [message] at java.awt.EventQueue$3.run(EventQueue.java:682)
+[2013/01/26 16:43:22] [message] at java.awt.EventQueue$3.run(EventQueue.java:680)
+[2013/01/26 16:43:22] [message] at java.security.AccessController.doPrivileged(Native Method)
+[2013/01/26 16:43:22] [message] at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+[2013/01/26 16:43:22] [message] at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+[2013/01/26 16:43:22] [message] at java.awt.EventQueue$4.run(EventQueue.java:696)
+[2013/01/26 16:43:22] [message] at java.awt.EventQueue$4.run(EventQueue.java:694)
+[2013/01/26 16:43:22] [message] at java.security.AccessController.doPrivileged(Native Method)
+[2013/01/26 16:43:22] [message] at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+[2013/01/26 16:43:22] [message] at java.awt.EventQueue.dispatchEvent(EventQueue.java:693)
+[2013/01/26 16:43:22] [message] at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:158)
+[2013/01/26 16:43:22] [message] at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+[2013/01/26 16:43:22] [message] at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+[2013/01/26 16:43:22] [message] at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+[2013/01/26 16:43:22] [message] at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+[2013/01/26 16:43:22] [message] at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+[2013/01/26 16:43:22] [message] at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+[2013/01/26 16:43:28] [message] Opening Document Stream
+[2013/01/26 16:43:28] [message] Unable to parse the document.
+[2013/01/26 16:43:28] [message] java.lang.NullPointerException
+[2013/01/26 16:43:28] [message] at japa.parser.ast.visitor.VoidVisitorAdapter.visit(VoidVisitorAdapter.java:265)
+[2013/01/26 16:43:28] [message] at org.netbeans.modules.javasourcefilepalette.items.resources.VariableNameComboModel.<init>(VariableNameComboModel.java:54)
+[2013/01/26 16:43:28] [message] at org.netbeans.modules.javasourcefilepalette.items.resources.CharParameterPopup.initComponents(CharParameterPopup.java:136)
+[2013/01/26 16:43:28] [message] at org.netbeans.modules.javasourcefilepalette.items.resources.CharParameterPopup.<init>(CharParameterPopup.java:47)
+[2013/01/26 16:43:28] [message] at org.netbeans.modules.javasourcefilepalette.items.CharParameter.handleTransfer(CharParameter.java:42)
+[2013/01/26 16:43:28] [message] at org.openide.text.QuietEditorPane$DelegatingTransferHandler.importData(QuietEditorPane.java:360)
+[2013/01/26 16:43:28] [message] at javax.swing.TransferHandler.importData(TransferHandler.java:826)
+[2013/01/26 16:43:28] [message] at javax.swing.TransferHandler$DropHandler.drop(TransferHandler.java:1536)
+[2013/01/26 16:43:28] [message] at java.awt.dnd.DropTarget.drop(DropTarget.java:450)
+[2013/01/26 16:43:28] [message] at javax.swing.TransferHandler$SwingDropTarget.drop(TransferHandler.java:1274)
+[2013/01/26 16:43:28] [message] at org.openide.text.QuietEditorPane$DelegatingDropTarget.drop(QuietEditorPane.java:509)
+[2013/01/26 16:43:28] [message] at sun.awt.dnd.SunDropTargetContextPeer.processDropMessage(SunDropTargetContextPeer.java:537)
+[2013/01/26 16:43:28] [message] at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchDropEvent(SunDropTargetContextPeer.java:851)
+[2013/01/26 16:43:28] [message] at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchEvent(SunDropTargetContextPeer.java:775)
+[2013/01/26 16:43:28] [message] at sun.awt.dnd.SunDropTargetEvent.dispatch(SunDropTargetEvent.java:48)
+[2013/01/26 16:43:28] [message] at java.awt.Component.dispatchEventImpl(Component.java:4716)
+[2013/01/26 16:43:28] [message] at java.awt.Container.dispatchEventImpl(Container.java:2287)
+[2013/01/26 16:43:28] [message] at java.awt.Component.dispatchEvent(Component.java:4687)
+[2013/01/26 16:43:28] [message] at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+[2013/01/26 16:43:28] [message] at java.awt.LightweightDispatcher.processDropTargetEvent(Container.java:4566)
+[2013/01/26 16:43:28] [message] at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4417)
+[2013/01/26 16:43:28] [message] at java.awt.Container.dispatchEventImpl(Container.java:2273)
+[2013/01/26 16:43:28] [message] at java.awt.Window.dispatchEventImpl(Window.java:2719)
+[2013/01/26 16:43:28] [message] at java.awt.Component.dispatchEvent(Component.java:4687)
+[2013/01/26 16:43:28] [message] at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+[2013/01/26 16:43:28] [message] at java.awt.EventQueue.access$200(EventQueue.java:103)
+[2013/01/26 16:43:28] [message] at java.awt.EventQueue$3.run(EventQueue.java:682)
+[2013/01/26 16:43:28] [message] at java.awt.EventQueue$3.run(EventQueue.java:680)
+[2013/01/26 16:43:28] [message] at java.security.AccessController.doPrivileged(Native Method)
+[2013/01/26 16:43:28] [message] at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+[2013/01/26 16:43:28] [message] at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+[2013/01/26 16:43:28] [message] at java.awt.EventQueue$4.run(EventQueue.java:696)
+[2013/01/26 16:43:28] [message] at java.awt.EventQueue$4.run(EventQueue.java:694)
+[2013/01/26 16:43:28] [message] at java.security.AccessController.doPrivileged(Native Method)
+[2013/01/26 16:43:28] [message] at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+[2013/01/26 16:43:28] [message] at java.awt.EventQueue.dispatchEvent(EventQueue.java:693)
+[2013/01/26 16:43:28] [message] at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:158)
+[2013/01/26 16:43:28] [message] at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+[2013/01/26 16:43:28] [message] at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+[2013/01/26 16:43:28] [message] at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+[2013/01/26 16:43:28] [message] at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+[2013/01/26 16:43:28] [message] at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+[2013/01/26 16:43:28] [message] at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+[2013/01/26 16:43:28] [message] Opening Document Stream
+[2013/01/26 16:43:28] [message] Unable to parse the document.
+[2013/01/26 16:43:28] [message] java.lang.NullPointerException
+[2013/01/26 16:43:28] [message] at japa.parser.ast.visitor.VoidVisitorAdapter.visit(VoidVisitorAdapter.java:265)
+[2013/01/26 16:43:28] [message] at org.netbeans.modules.javasourcefilepalette.items.resources.VariableNameComboModel.<init>(VariableNameComboModel.java:54)
+[2013/01/26 16:43:28] [message] at org.netbeans.modules.javasourcefilepalette.items.resources.CharParameterPopup.initComponents(CharParameterPopup.java:136)
+[2013/01/26 16:43:28] [message] at org.netbeans.modules.javasourcefilepalette.items.resources.CharParameterPopup.<init>(CharParameterPopup.java:47)
+[2013/01/26 16:43:28] [message] at org.netbeans.modules.javasourcefilepalette.items.CharParameter.handleTransfer(CharParameter.java:42)
+[2013/01/26 16:43:28] [message] at org.openide.text.QuietEditorPane$DelegatingTransferHandler.importData(QuietEditorPane.java:360)
+[2013/01/26 16:43:28] [message] at org.netbeans.modules.java.editor.imports.ClipboardHandler$ImportingTransferHandler.delegatedImportData(ClipboardHandler.java:547)
+[2013/01/26 16:43:28] [message] at org.netbeans.modules.java.editor.imports.ClipboardHandler$ImportingTransferHandler.importData(ClipboardHandler.java:517)
+[2013/01/26 16:43:28] [message] at org.openide.text.QuietEditorPane$DelegatingTransferHandler.importData(QuietEditorPane.java:371)
+[2013/01/26 16:43:28] [message] at javax.swing.TransferHandler.importData(TransferHandler.java:826)
+[2013/01/26 16:43:28] [message] at javax.swing.TransferHandler$DropHandler.drop(TransferHandler.java:1536)
+[2013/01/26 16:43:28] [message] at java.awt.dnd.DropTarget.drop(DropTarget.java:450)
+[2013/01/26 16:43:28] [message] at javax.swing.TransferHandler$SwingDropTarget.drop(TransferHandler.java:1274)
+[2013/01/26 16:43:28] [message] at org.openide.text.QuietEditorPane$DelegatingDropTarget.drop(QuietEditorPane.java:509)
+[2013/01/26 16:43:28] [message] at sun.awt.dnd.SunDropTargetContextPeer.processDropMessage(SunDropTargetContextPeer.java:537)
+[2013/01/26 16:43:28] [message] at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchDropEvent(SunDropTargetContextPeer.java:851)
+[2013/01/26 16:43:28] [message] at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchEvent(SunDropTargetContextPeer.java:775)
+[2013/01/26 16:43:28] [message] at sun.awt.dnd.SunDropTargetEvent.dispatch(SunDropTargetEvent.java:48)
+[2013/01/26 16:43:28] [message] at java.awt.Component.dispatchEventImpl(Component.java:4716)
+[2013/01/26 16:43:28] [message] at java.awt.Container.dispatchEventImpl(Container.java:2287)
+[2013/01/26 16:43:28] [message] at java.awt.Component.dispatchEvent(Component.java:4687)
+[2013/01/26 16:43:28] [message] at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+[2013/01/26 16:43:28] [message] at java.awt.LightweightDispatcher.processDropTargetEvent(Container.java:4566)
+[2013/01/26 16:43:28] [message] at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4417)
+[2013/01/26 16:43:28] [message] at java.awt.Container.dispatchEventImpl(Container.java:2273)
+[2013/01/26 16:43:28] [message] at java.awt.Window.dispatchEventImpl(Window.java:2719)
+[2013/01/26 16:43:28] [message] at java.awt.Component.dispatchEvent(Component.java:4687)
+[2013/01/26 16:43:28] [message] at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+[2013/01/26 16:43:28] [message] at java.awt.EventQueue.access$200(EventQueue.java:103)
+[2013/01/26 16:43:28] [message] at java.awt.EventQueue$3.run(EventQueue.java:682)
+[2013/01/26 16:43:28] [message] at java.awt.EventQueue$3.run(EventQueue.java:680)
+[2013/01/26 16:43:28] [message] at java.security.AccessController.doPrivileged(Native Method)
+[2013/01/26 16:43:28] [message] at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+[2013/01/26 16:43:28] [message] at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+[2013/01/26 16:43:28] [message] at java.awt.EventQueue$4.run(EventQueue.java:696)
+[2013/01/26 16:43:28] [message] at java.awt.EventQueue$4.run(EventQueue.java:694)
+[2013/01/26 16:43:28] [message] at java.security.AccessController.doPrivileged(Native Method)
+[2013/01/26 16:43:28] [message] at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+[2013/01/26 16:43:28] [message] at java.awt.EventQueue.dispatchEvent(EventQueue.java:693)
+[2013/01/26 16:43:28] [message] at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:158)
+[2013/01/26 16:43:28] [message] at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+[2013/01/26 16:43:28] [message] at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+[2013/01/26 16:43:28] [message] at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+[2013/01/26 16:43:28] [message] at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+[2013/01/26 16:43:28] [message] at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+[2013/01/26 16:43:28] [message] at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+[2013/01/26 16:43:47] [message] Opening Document Stream
+[2013/01/26 16:43:47] [message] Begin Line: 5
+[2013/01/26 16:43:47] [message] Variable: byte : myB
+[2013/01/26 16:43:47] [message] Variable: char : myChar
+[2013/01/26 16:43:47] [message] Variable: double : myD
+[2013/01/26 16:43:47] [message] Variable: int : myI
+[2013/01/26 16:43:47] [message] Variable: String : myStr
+[2013/01/26 16:43:47] [message] Variable: boolean : bool
+[2013/01/26 16:43:47] [message] Variable: byte : b
+[2013/01/26 16:43:47] [message] Variable: char : thisChar
+[2013/01/26 16:43:47] [message] Variable: double : myDouble
+[2013/01/26 16:43:47] [message] Variable: float : myFloat
+[2013/01/26 16:43:47] [message] Variable: int : myInteger
+[2013/01/26 16:43:47] [message] Can't get display name: java.util.MissingResourceException: Can't find resource for bundle org.openide.util.NbBundle$PBundle, key NAME_html-CharParameterPopup
+[2013/01/26 16:43:54] [message] Opening Document Stream
+[2013/01/26 16:43:54] [message] Begin Line: 5
+[2013/01/26 16:43:54] [message] Variable: byte : myB
+[2013/01/26 16:43:54] [message] Variable: char : myChar
+[2013/01/26 16:43:54] [message] Variable: double : myD
+[2013/01/26 16:43:54] [message] Variable: int : myI
+[2013/01/26 16:43:54] [message] Variable: String : myStr
+[2013/01/26 16:43:54] [message] Variable: boolean : bool
+[2013/01/26 16:43:54] [message] Variable: byte : b
+[2013/01/26 16:43:54] [message] Variable: char : thisChar
+[2013/01/26 16:43:54] [message] Variable: double : myDouble
+[2013/01/26 16:43:54] [message] Variable: float : myFloat
+[2013/01/26 16:43:54] [message] Variable: int : myInteger
+[2013/01/26 16:43:54] [message] Can't get display name: java.util.MissingResourceException: Can't find resource for bundle org.openide.util.NbBundle$PBundle, key NAME_html-CharParameterPopup
+[2013/01/26 16:44:05] [message] char
+[2013/01/26 16:44:05] [message] myCrazyChar
+[2013/01/26 16:44:05] [message] Inserting Code
+[2013/01/26 16:50:38] [warning] Language dir not found: C:\Users\ian\Documents\NetBeansProjects\JavaSourceFilePalette\..\UserLanguage
+[2013/01/26 16:51:04] [message] Opening Document Stream
+[2013/01/26 16:51:04] [message] Begin Line: 5
+[2013/01/26 16:51:04] [message] Variable: byte : myB
+[2013/01/26 16:51:04] [message] Variable: char : myChar
+[2013/01/26 16:51:04] [message] Variable: double : myD
+[2013/01/26 16:51:04] [message] Variable: int : myI
+[2013/01/26 16:51:04] [message] Variable: String : myStr
+[2013/01/26 16:51:04] [message] Variable: boolean : bool
+[2013/01/26 16:51:04] [message] Variable: byte : b
+[2013/01/26 16:51:04] [message] Variable: char : thisChar
+[2013/01/26 16:51:04] [message] Variable: double : myDouble
+[2013/01/26 16:51:04] [message] Variable: float : myFloat
+[2013/01/26 16:51:04] [message] Variable: int : myInteger
+[2013/01/26 16:51:04] [message] Can't get display name: java.util.MissingResourceException: Can't find resource for bundle org.openide.util.NbBundle$PBundle, key NAME_html-CharParameterPopup
+[2013/01/26 16:51:15] [message] char
+[2013/01/26 16:51:15] [message] myCrazyC
+[2013/01/26 16:51:15] [message] Inserting Code
+[2013/01/26 16:51:24] [message] Opening Document Stream
+[2013/01/26 16:51:24] [message] Begin Line: 5
+[2013/01/26 16:51:24] [message] Variable: byte : myB
+[2013/01/26 16:51:24] [message] Variable: char : myChar
+[2013/01/26 16:51:24] [message] Variable: double : myD
+[2013/01/26 16:51:24] [message] Variable: int : myI
+[2013/01/26 16:51:24] [message] Variable: String : myStr
+[2013/01/26 16:51:24] [message] Variable: boolean : bool
+[2013/01/26 16:51:24] [message] Variable: byte : b
+[2013/01/26 16:51:24] [message] Variable: char : thisChar
+[2013/01/26 16:51:24] [message] Variable: double : myDouble
+[2013/01/26 16:51:24] [message] Variable: float : myFloat
+[2013/01/26 16:51:24] [message] Variable: int : myInteger
+[2013/01/26 16:51:24] [message] Can't get display name: java.util.MissingResourceException: Can't find resource for bundle org.openide.util.NbBundle$PBundle, key NAME_html-CharParameterPopup
+[2013/01/26 16:51:39] [message] Opening Document Stream
+[2013/01/26 16:51:39] [message] Begin Line: 5
+[2013/01/26 16:51:39] [message] Variable: byte : myB
+[2013/01/26 16:51:39] [message] Variable: char : myChar
+[2013/01/26 16:51:39] [message] Variable: double : myD
+[2013/01/26 16:51:39] [message] Variable: int : myI
+[2013/01/26 16:51:39] [message] Variable: String : myStr
+[2013/01/26 16:51:39] [message] Variable: boolean : bool
+[2013/01/26 16:51:39] [message] Variable: byte : b
+[2013/01/26 16:51:39] [message] Variable: char : thisChar
+[2013/01/26 16:51:39] [message] Variable: double : myDouble
+[2013/01/26 16:51:39] [message] Variable: float : myFloat
+[2013/01/26 16:51:39] [message] Variable: int : myInteger
+[2013/01/26 16:51:39] [message] Can't get display name: java.util.MissingResourceException: Can't find resource for bundle org.openide.util.NbBundle$PBundle, key NAME_html-CharParameterPopup
+[2013/01/26 16:51:51] [message] char
+[2013/01/26 16:51:51] [message] myCrazyC
+[2013/01/26 16:51:51] [message] Inserting Code
+[2013/01/26 16:51:58] [message] char
+[2013/01/26 16:51:58] [message] myCrazyB
+[2013/01/26 16:51:58] [message] Inserting Code
+[2013/01/26 16:52:04] [message] char
+[2013/01/26 16:52:04] [message] myCrazyD
+[2013/01/26 16:52:04] [message] Inserting Code
+[2013/01/26 16:53:04] [message] Opening Document Stream
+[2013/01/26 16:53:04] [message] Begin Line: 5
+[2013/01/26 16:53:04] [message] Variable: byte : myB
+[2013/01/26 16:53:04] [message] Variable: char : myChar
+[2013/01/26 16:53:04] [message] Variable: double : myD
+[2013/01/26 16:53:04] [message] Variable: int : myI
+[2013/01/26 16:53:04] [message] Variable: String : myStr
+[2013/01/26 16:53:04] [message] Variable: boolean : bool
+[2013/01/26 16:53:04] [message] Variable: byte : b
+[2013/01/26 16:53:04] [message] Variable: char : thisChar
+[2013/01/26 16:53:04] [message] Variable: double : myDouble
+[2013/01/26 16:53:04] [message] Variable: float : myFloat
+[2013/01/26 16:53:04] [message] Variable: int : myInteger
+[2013/01/26 16:53:04] [message] Can't get display name: java.util.MissingResourceException: Can't find resource for bundle org.openide.util.NbBundle$PBundle, key NAME_html-CharParameterPopup
+[2013/01/26 16:53:24] [message] Opening Document Stream
+[2013/01/26 16:53:24] [message] Begin Line: 5
+[2013/01/26 16:53:24] [message] Variable: byte : myB
+[2013/01/26 16:53:24] [message] Variable: char : myChar
+[2013/01/26 16:53:24] [message] Variable: double : myD
+[2013/01/26 16:53:24] [message] Variable: int : myI
+[2013/01/26 16:53:24] [message] Variable: String : myStr
+[2013/01/26 16:53:24] [message] Variable: boolean : bool
+[2013/01/26 16:53:24] [message] Variable: byte : b
+[2013/01/26 16:53:24] [message] Variable: char : thisChar
+[2013/01/26 16:53:24] [message] Variable: double : myDouble
+[2013/01/26 16:53:24] [message] Variable: float : myFloat
+[2013/01/26 16:53:24] [message] Variable: int : myInteger
+[2013/01/26 16:53:24] [message] Can't get display name: java.util.MissingResourceException: Can't find resource for bundle org.openide.util.NbBundle$PBundle, key NAME_html-CharParameterPopup
+[2013/01/26 16:53:34] [message] char
+[2013/01/26 16:53:34] [message] Inserting Code
+[2013/01/26 16:54:11] [message] Opening Document Stream
+[2013/01/26 16:54:34] [message] Opening Document Stream
+[2013/01/26 16:54:34] [message] Begin Line: 5
+[2013/01/26 16:54:34] [message] Variable: byte : myB
+[2013/01/26 16:54:34] [message] Variable: char : myChar
+[2013/01/26 16:54:34] [message] Variable: double : myD
+[2013/01/26 16:54:34] [message] Variable: int : myI
+[2013/01/26 16:54:34] [message] Variable: String : myStr
+[2013/01/26 16:54:34] [message] Variable: boolean : bool
+[2013/01/26 16:54:34] [message] Variable: byte : b
+[2013/01/26 16:54:34] [message] Variable: char : thisChar
+[2013/01/26 16:54:34] [message] Variable: double : myDouble
+[2013/01/26 16:54:34] [message] Variable: float : myFloat
+[2013/01/26 16:54:34] [message] Variable: int : myInteger
+[2013/01/26 16:54:34] [message] Can't get display name: java.util.MissingResourceException: Can't find resource for bundle org.openide.util.NbBundle$PBundle, key NAME_html-CharParameterPopup
+[2013/01/26 17:13:51] [warning] Language dir not found: C:\Users\ian\Documents\NetBeansProjects\JavaSourceFilePalette\..\UserLanguage
+[2013/01/26 17:14:13] [message] Can't get display name: java.util.MissingResourceException: Can't find resource for bundle org.openide.util.NbBundle$PBundle, key NAME_html-CharParameterPopup
+[2013/01/26 17:14:35] [message] Can't get display name: java.util.MissingResourceException: Can't find resource for bundle org.openide.util.NbBundle$PBundle, key NAME_html-CharParameterPopup
+[2013/01/26 17:14:56] [message] char
+[2013/01/26 17:14:56] [message] myCrazyChar
+[2013/01/26 17:14:56] [message] Inserting Code
+[2013/01/26 17:15:04] [message] String
+[2013/01/26 17:15:04] [message] myCrazyStr
+[2013/01/26 17:15:04] [message] Inserting Code
