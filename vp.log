@@ -4326,3 +4326,64 @@
 [2013/01/26 17:15:04] [message] String
 [2013/01/26 17:15:04] [message] myCrazyStr
 [2013/01/26 17:15:04] [message] Inserting Code
+[2013/01/26 18:17:25] [warning] Language dir not found: C:\Users\ian\Documents\NetBeansProjects\JavaSourceFilePalette\..\UserLanguage
+[2013/01/26 18:19:18] [message] Inserting Code
+[2013/01/26 18:24:06] [warning] Language dir not found: C:\Users\ian\Documents\NetBeansProjects\JavaSourceFilePalette\..\UserLanguage
+[2013/01/26 18:25:19] [message] Inserting Code
+[2013/01/26 18:31:58] [warning] Language dir not found: C:\Users\ian\Documents\NetBeansProjects\JavaSourceFilePalette\..\UserLanguage
+[2013/01/26 18:32:57] [message] Inserting Code
+[2013/01/26 19:05:02] [warning] Language dir not found: C:\Users\ian\Documents\NetBeansProjects\JavaSourceFilePalette\..\UserLanguage
+[2013/01/26 19:07:13] [message] Inserting Code
+[2013/01/26 19:07:29] [message] Opening Document Stream
+[2013/01/26 19:07:29] [message] Begin Line: 5
+[2013/01/26 19:07:29] [message] Variable: byte : myB
+[2013/01/26 19:07:29] [message] Variable: char : myChar
+[2013/01/26 19:07:29] [message] Variable: double : myD
+[2013/01/26 19:07:29] [message] Variable: int : myI
+[2013/01/26 19:07:29] [message] Variable: String : myStr
+[2013/01/26 19:07:29] [message] Variable: boolean : bool
+[2013/01/26 19:07:29] [message] Variable: byte : b
+[2013/01/26 19:07:29] [message] Variable: char : thisChar
+[2013/01/26 19:07:29] [message] Variable: double : myDouble
+[2013/01/26 19:07:29] [message] Variable: float : myFloat
+[2013/01/26 19:07:29] [message] Variable: int : myInteger
+[2013/01/26 19:07:29] [message] Opening Document Stream
+[2013/01/26 19:07:29] [message] Begin Line: 5
+[2013/01/26 19:07:29] [message] Variable: byte : myB
+[2013/01/26 19:07:29] [message] Variable: char : myChar
+[2013/01/26 19:07:29] [message] Variable: double : myD
+[2013/01/26 19:07:29] [message] Variable: int : myI
+[2013/01/26 19:07:29] [message] Variable: String : myStr
+[2013/01/26 19:07:29] [message] Variable: boolean : bool
+[2013/01/26 19:07:29] [message] Variable: byte : b
+[2013/01/26 19:07:29] [message] Variable: char : thisChar
+[2013/01/26 19:07:29] [message] Variable: double : myDouble
+[2013/01/26 19:07:29] [message] Variable: float : myFloat
+[2013/01/26 19:07:29] [message] Variable: int : myInteger
+[2013/01/26 19:07:36] [message] Opening Document Stream
+[2013/01/26 19:07:37] [message] Begin Line: 5
+[2013/01/26 19:07:37] [message] Variable: byte : myB
+[2013/01/26 19:07:37] [message] Variable: char : myChar
+[2013/01/26 19:07:37] [message] Variable: double : myD
+[2013/01/26 19:07:37] [message] Variable: int : myI
+[2013/01/26 19:07:37] [message] Variable: String : myStr
+[2013/01/26 19:07:37] [message] Variable: boolean : bool
+[2013/01/26 19:07:37] [message] Variable: byte : b
+[2013/01/26 19:07:37] [message] Variable: char : thisChar
+[2013/01/26 19:07:37] [message] Variable: double : myDouble
+[2013/01/26 19:07:37] [message] Variable: float : myFloat
+[2013/01/26 19:07:37] [message] Variable: int : myInteger
+[2013/01/26 19:07:37] [message] Opening Document Stream
+[2013/01/26 19:07:37] [message] Begin Line: 5
+[2013/01/26 19:07:37] [message] Variable: byte : myB
+[2013/01/26 19:07:37] [message] Variable: char : myChar
+[2013/01/26 19:07:37] [message] Variable: double : myD
+[2013/01/26 19:07:37] [message] Variable: int : myI
+[2013/01/26 19:07:37] [message] Variable: String : myStr
+[2013/01/26 19:07:37] [message] Variable: boolean : bool
+[2013/01/26 19:07:37] [message] Variable: byte : b
+[2013/01/26 19:07:37] [message] Variable: char : thisChar
+[2013/01/26 19:07:37] [message] Variable: double : myDouble
+[2013/01/26 19:07:37] [message] Variable: float : myFloat
+[2013/01/26 19:07:37] [message] Variable: int : myInteger
+[2013/01/26 19:08:26] [message] Inserting Code

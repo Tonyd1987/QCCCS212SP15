@@ -30,9 +30,15 @@ import java.io.InputStream;
  * open java source.
  */
 public class GetCompilationUnit {
+    /**
+     * 
+     * @return
+     * @throws FileNotFoundException
+     * @throws IOException 
+     */
     public CompilationUnit getCU() throws FileNotFoundException, IOException {
         java.io.File currentFile =
-            FileUtil.toFile(NbEditorUtilities.getFileObject(EditorRegistry.lastFocusedComponent().getDocument()));
+        FileUtil.toFile(NbEditorUtilities.getFileObject(EditorRegistry.lastFocusedComponent().getDocument()));
         InputStream     in = null;
         CompilationUnit cu = null;
 

@@ -15,9 +15,7 @@ import japa.parser.ast.visitor.VoidVisitorAdapter;
 
 //~--- JDK imports ------------------------------------------------------------
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 /**
  *

@@ -30,7 +30,7 @@ public class JavaDocCommentPopup extends javax.swing.JPanel {
     private boolean dialogOK = false;
     JavaDocComment ifitem;
     JTextComponent target;
-
+    private StringBuilder paramString = new StringBuilder();
     /**
      * Creates new Popup form
      * @param item
@@ -108,16 +108,12 @@ public class JavaDocCommentPopup extends javax.swing.JPanel {
         jTextField1 = new javax.swing.JTextArea();
         jLabel1 = new javax.swing.JLabel();
         author = new javax.swing.JTextField();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        param1 = new javax.swing.JTextField();
-        param2 = new javax.swing.JTextField();
-        param3 = new javax.swing.JTextField();
-        param4 = new javax.swing.JTextField();
+        paramName = new javax.swing.JTextField();
         paramReturn = new javax.swing.JTextField();
+        jLabel8 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        typeCb = new javax.swing.JComboBox();
 
         varPane.setBorder(javax.swing.BorderFactory.createTitledBorder(org.openide.util.NbBundle.getMessage(JavaDocCommentPopup.class, "JavaDocCommentPopup.varPane.border.title"))); // NOI18N
         varPane.setToolTipText(org.openide.util.NbBundle.getMessage(JavaDocCommentPopup.class, "JavaDocCommentPopup.varPane.toolTipText")); // NOI18N
@@ -148,25 +144,27 @@ public class JavaDocCommentPopup extends javax.swing.JPanel {
 
         author.setText(org.openide.util.NbBundle.getMessage(JavaDocCommentPopup.class, "JavaDocCommentPopup.author.text")); // NOI18N
 
-        org.openide.awt.Mnemonics.setLocalizedText(jLabel2, org.openide.util.NbBundle.getMessage(JavaDocCommentPopup.class, "JavaDocCommentPopup.jLabel2.text")); // NOI18N
-
-        org.openide.awt.Mnemonics.setLocalizedText(jLabel3, org.openide.util.NbBundle.getMessage(JavaDocCommentPopup.class, "JavaDocCommentPopup.jLabel3.text")); // NOI18N
-
-        org.openide.awt.Mnemonics.setLocalizedText(jLabel5, org.openide.util.NbBundle.getMessage(JavaDocCommentPopup.class, "JavaDocCommentPopup.jLabel5.text")); // NOI18N
-
-        org.openide.awt.Mnemonics.setLocalizedText(jLabel6, org.openide.util.NbBundle.getMessage(JavaDocCommentPopup.class, "JavaDocCommentPopup.jLabel6.text")); // NOI18N
-
         org.openide.awt.Mnemonics.setLocalizedText(jLabel7, org.openide.util.NbBundle.getMessage(JavaDocCommentPopup.class, "JavaDocCommentPopup.jLabel7.text")); // NOI18N
 
-        param1.setText(org.openide.util.NbBundle.getMessage(JavaDocCommentPopup.class, "JavaDocCommentPopup.param1.text")); // NOI18N
-
-        param2.setText(org.openide.util.NbBundle.getMessage(JavaDocCommentPopup.class, "JavaDocCommentPopup.param2.text")); // NOI18N
-
-        param3.setText(org.openide.util.NbBundle.getMessage(JavaDocCommentPopup.class, "JavaDocCommentPopup.param3.text")); // NOI18N
-
-        param4.setText(org.openide.util.NbBundle.getMessage(JavaDocCommentPopup.class, "JavaDocCommentPopup.param4.text")); // NOI18N
+        paramName.setText(org.openide.util.NbBundle.getMessage(JavaDocCommentPopup.class, "JavaDocCommentPopup.paramName.text")); // NOI18N
+        paramName.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                paramNameActionPerformed(evt);
+            }
+        });
 
         paramReturn.setText(org.openide.util.NbBundle.getMessage(JavaDocCommentPopup.class, "JavaDocCommentPopup.paramReturn.text")); // NOI18N
+
+        org.openide.awt.Mnemonics.setLocalizedText(jLabel8, org.openide.util.NbBundle.getMessage(JavaDocCommentPopup.class, "JavaDocCommentPopup.jLabel8.text")); // NOI18N
+
+        org.openide.awt.Mnemonics.setLocalizedText(jButton1, org.openide.util.NbBundle.getMessage(JavaDocCommentPopup.class, "JavaDocCommentPopup.jButton1.text")); // NOI18N
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+
+        typeCb.setModel(new VariableTypeComboBoxModel());
 
         javax.swing.GroupLayout varPaneLayout = new javax.swing.GroupLayout(varPane);
         varPane.setLayout(varPaneLayout);
@@ -179,66 +177,66 @@ public class JavaDocCommentPopup extends javax.swing.JPanel {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel33))
             .addGroup(varPaneLayout.createSequentialGroup()
-                .addGroup(varPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                .addGroup(varPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addGroup(varPaneLayout.createSequentialGroup()
-                        .addGap(345, 345, 345)
-                        .addComponent(addJavaDoc))
-                    .addGroup(varPaneLayout.createSequentialGroup()
-                        .addGroup(varPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel1)
-                            .addComponent(jLabel2)
-                            .addComponent(jLabel3)
-                            .addComponent(jLabel5)
-                            .addComponent(jLabel6)
-                            .addComponent(jLabel7))
-                        .addGap(24, 24, 24)
                         .addGroup(varPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(param4, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(param3, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(param2, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(param1, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(author)
-                            .addComponent(paramReturn))
-                        .addGap(20, 20, 20)))
+                            .addComponent(jLabel8)
+                            .addComponent(jLabel7))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(paramReturn))
+                    .addGroup(varPaneLayout.createSequentialGroup()
+                        .addGap(6, 6, 6)
+                        .addGroup(varPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(addJavaDoc)
+                            .addGroup(varPaneLayout.createSequentialGroup()
+                                .addGroup(varPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addGroup(varPaneLayout.createSequentialGroup()
+                                        .addGap(42, 42, 42)
+                                        .addComponent(typeCb, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(paramName, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(jButton1))
+                                    .addGroup(varPaneLayout.createSequentialGroup()
+                                        .addComponent(jLabel1)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(author, javax.swing.GroupLayout.PREFERRED_SIZE, 321, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addGap(3, 3, 3)))))
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         varPaneLayout.setVerticalGroup(
             varPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(varPaneLayout.createSequentialGroup()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(addJavaDoc))
-            .addGroup(varPaneLayout.createSequentialGroup()
-                .addGap(3, 3, 3)
-                .addGroup(varPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel33)
-                    .addComponent(jLabel4))
-                .addGap(82, 82, 82)
-                .addGroup(varPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGroup(varPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(varPaneLayout.createSequentialGroup()
-                        .addGroup(varPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel1)
-                            .addComponent(author, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel2))
-                    .addComponent(param1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(varPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(author, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel1)))
+                    .addGroup(varPaneLayout.createSequentialGroup()
+                        .addGap(3, 3, 3)
+                        .addGroup(varPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel33)
+                            .addComponent(jLabel4))))
+                .addGroup(varPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(varPaneLayout.createSequentialGroup()
+                        .addGap(5, 5, 5)
+                        .addComponent(jLabel8))
+                    .addGroup(varPaneLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(varPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(paramName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton1)))
+                    .addGroup(varPaneLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(typeCb, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 28, Short.MAX_VALUE)
                 .addGroup(varPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel3)
-                    .addComponent(param2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(varPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel5)
-                    .addComponent(param3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(varPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel6)
-                    .addComponent(param4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(varPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel7)
-                    .addComponent(paramReturn, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 30, Short.MAX_VALUE))
+                    .addComponent(paramReturn, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel7))
+                .addGap(0, 0, 0)
+                .addComponent(addJavaDoc))
         );
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -268,7 +266,9 @@ public class JavaDocCommentPopup extends javax.swing.JPanel {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 18, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -283,18 +283,17 @@ public class JavaDocCommentPopup extends javax.swing.JPanel {
             //Grab all params for javaDoc and insert into document
             String description = jTextField1.getText();
             String paramAuthor = author.getText();
-            String p1 = param1.getText();
-            String p2 = param2.getText();
-            String p3 = param3.getText();
-            String p4 = param4.getText();
+            String p1 = paramName.getText();
+            
             String pR = paramReturn.getText();
+            
             //Construct the output string
             StringBuilder sb = new StringBuilder();
-            sb.append("/**\n * ").append(description).append("\n *aAuthor ").append(paramAuthor).append("\n *");
-            sb.append("@param ").append(p1).append("\n *");
-            sb.append("@param ").append(p2).append("\n *");
-            sb.append("@param ").append(p3).append("\n *");
-            sb.append("@param ").append(p4).append("\n *");
+            
+            sb.append("/**\n * ").append(description).append("\n *author ").append(paramAuthor).append("\n *");
+            
+            sb.append(this.getParamString());
+            
             sb.append("@return ").append(pR).append("\n */");
 
             String code = sb.toString();
@@ -311,33 +310,63 @@ public class JavaDocCommentPopup extends javax.swing.JPanel {
             JOptionPane.showMessageDialog(this, "All Fields must be filled out.");
 
         }
-        //Call combobox models visit method to update with the new variable.
+        
     }//GEN-LAST:event_addJavaDocActionPerformed
 
     private void jLabel33MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel33MouseClicked
         // Help Page
-        OpenHelpUrl o = new OpenHelpUrl("http://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html");
+        OpenHelpUrl o = new OpenHelpUrl("http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html");
     }//GEN-LAST:event_jLabel33MouseClicked
+
+    private void paramNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_paramNameActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_paramNameActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        String pType = typeCb.getSelectedItem().toString();
+        if (pType.isEmpty()){pType = " ";}
+        String pName = paramName.getText();
+        StringBuilder pString = new StringBuilder();
+        pString.append("@param ").append(pType).append(" ").append(pName).append("\n *");
+        this.setParamString(pString);
+        
+        //Reset the boxes.
+        typeCb.setSelectedIndex(-1);
+        paramName.setText("");
+        
+    }//GEN-LAST:event_jButton1ActionPerformed
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton addJavaDoc;
     private javax.swing.JTextField author;
     private javax.swing.ButtonGroup buttonGroup1;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel33;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextArea jTextField1;
-    private javax.swing.JTextField param1;
-    private javax.swing.JTextField param2;
-    private javax.swing.JTextField param3;
-    private javax.swing.JTextField param4;
+    private javax.swing.JTextField paramName;
     private javax.swing.JTextField paramReturn;
+    private javax.swing.JComboBox typeCb;
     private javax.swing.JPanel varPane;
     // End of variables declaration//GEN-END:variables
+
+    /**
+     * @return the paramString
+     */
+    public StringBuilder getParamString() {
+        return paramString;
+    }
+
+    /**
+     * @param paramString the paramString to set
+     */
+    public void setParamString(StringBuilder paramString) {
+        this.paramString.append(paramString);
+        
+    }
 }
