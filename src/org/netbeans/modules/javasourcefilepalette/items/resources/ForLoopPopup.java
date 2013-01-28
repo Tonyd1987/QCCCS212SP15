@@ -164,7 +164,7 @@ public class ForLoopPopup extends javax.swing.JPanel {
         forConValue.setEditable(true);
         forConValue.setModel(new VariableNameComboModel());
 
-        forOp3.setModel(new OperatorListModel());
+        forOp3.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "++", "--" }));
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel24, org.openide.util.NbBundle.getMessage(ForLoopPopup.class, "ForLoopPopup.jLabel24.text")); // NOI18N
 
